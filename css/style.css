@@ -1,7 +1,101 @@
 * {
   box-sizing: border-box;
+  margin: 0px auto;
 }
 
-h1{
+body{
+  width: 900px;
+}
+
+.borderLine {
+  background-image: url('img/hr-img.png');
+  background-repeat: repeat-y;
+  width:100%;
+  /* background-color: blue; */
+  /* display:inline; */
+  
+}
+
+h1 {
   font-family: 'Style Script', cursive;
+  display: inline-block;
+  margin: 0px;
+  font-size: 1.75rem;
+}
+
+header {
+  height: 60px;
+}
+
+section {
+  width: 68%;
+  display: inline-block;
+}
+
+section img {
+  display: inline-block;
+  margin: 0px;
+  height: 50px;
+}
+
+nav {
+  display: inline-block;
+  width: 30%;
+}
+
+nav>img:nth-child(7) {
+  margin-left: 10px;
+}
+
+article {
+  display: inline-block;
+  margin: 0px;
+}
+
+article p {
+  margin: 0px;
+  font-size: smaller;
+}
+
+main>section {
+  margin: 30px 0px;
+}
+
+section h2, section h4 {
+  margin: 0px;
+}
+
+section h4 {
+  font-size: smaller;
+  font-weight: normal;
+  display: inline-block;
+}
+
+#printArea {
+  width: 30%;
+  text-align: right;
+}
+
+#printArea img {
+  height: 10px;
+  display: inline-block;
+}
+
+#paragraphContent {
+  font-size: larger;
+  margin: 0px 0px 20px;
+}
+#paragraphContent p:first-child {
+  margin-top: 20px;
+  text-indent:20px;
+  
+}
+#paragraphContent p {
+  text-indent:20px;
+  margin: 25px 0px;
+}
+
+ul{ 
+  display:inline-block;
+  width:45%;
 }

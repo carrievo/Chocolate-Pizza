@@ -7,20 +7,62 @@ body{
   width: 900px;
 }
 
+/* .aboveBorder {
+  margin-bottom: 3rem;
+} */
+
 .borderLine {
-  background-image: url('img/hr-img.png');
-  background-repeat: repeat-y;
+  background-image: url('../img/hr-img.png');
+  background-repeat: repeat-x repeat-y;
   width:100%;
+  height: 15px;
+  margin-top: 2rem;
+
   /* background-color: blue; */
   /* display:inline; */
-  
+}
+
+#chocolateHeader, #printArea {
+  margin-top: 6rem;
+}
+
+h2 {
+  font-size: 40px;
 }
 
 h1 {
   font-family: 'Style Script', cursive;
   display: inline-block;
   margin: 0px;
-  font-size: 1.75rem;
+  font-size: 35px;
+}
+
+/* .list {
+  background-image: url('../img/list-bg.png');
+} */
+
+.ingredients {
+  background-image: url('../img/list-bg.png');
+  width: 100%;
+  font-size: 20px;
+  color: rgba(48, 31, 31, 0.584); 
+}
+
+ul {
+  margin: 50px 5px;
+}
+
+.ingredients ul:first-child {
+  margin-left: 4rem;
+  vertical-align: top;
+}
+
+.ingredients ul:nth-child(2) {
+  width: 35%;
+}
+
+.grayFont {
+  color: rgba(104, 104, 104, 0.454);
 }
 
 header {
@@ -83,7 +125,7 @@ section h4 {
 
 #paragraphContent {
   font-size: larger;
-  margin: 0px 0px 20px;
+  margin: 0px 0px 0px;
 }
 #paragraphContent p:first-child {
   margin-top: 20px;
@@ -98,4 +140,28 @@ section h4 {
 ul{ 
   display:inline-block;
   width:45%;
+}
+
+.vanessa-pic {
+  position: absolute;
+  width: 6.5vw;
+}
+
+.vanessa-name {
+  font-size: x-large;
+  font-weight: 700;
+  margin-bottom: 1em;
+  margin-left: 10%;
+}
+
+.vanessa-bio {
+  font-size: large;
+  line-height: 1em;
+  margin-left: 10%;
+  width: 85%;
+}
+
+.share-button {
+  display: inline;
+
 }

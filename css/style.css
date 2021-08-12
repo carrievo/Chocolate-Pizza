@@ -5,3 +5,37 @@
 h1{
   font-family: 'Style Script', cursive;
 }
+
+.borderline {
+  background-repeat: repeat-y;
+  background-image: url("img/hr-img.png");
+  width:200px;
+}
+
+
+
+
+
+.vanessa-pic {
+  position: absolute;
+  width: 6.5vw;
+}
+
+.vanessa-name {
+  font-size: x-large;
+  font-weight: 700;
+  margin-bottom: 1em;
+  margin-left: 10%;
+}
+
+.vanessa-bio {
+  font-size: large;
+  line-height: 1em;
+  margin-left: 10%;
+  width: 85%;
+}
+
+.share-button {
+  display: inline;
+
+}
